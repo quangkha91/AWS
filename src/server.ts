@@ -44,7 +44,7 @@ app.get('/filteredimage', async (req: Request, res: Response) => {
       deleteLocalFiles([filtered_image]);
     });
   }catch(err){
-    return res.status(500).send('Can not send file.');
+    return res.status(500).send('Internal Server Error');
   }
 });
   

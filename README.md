@@ -2,7 +2,7 @@
 
 Udagram: Your Own Instagram on AWS
 
-Link to verify: http://udacity-image-filter-dev.us-west-2.elasticbeanstalk.com/
+[Link to verify](http://udacity-image-filter-dev.us-west-2.elasticbeanstalk.com/)
 
 Test case 1 - Missing send image_url parameter: http://udacity-image-filter-dev.us-west-2.elasticbeanstalk.com//filteredimage?image_url=
 ==> return status code 400 and message "Image_url parameter is required."
